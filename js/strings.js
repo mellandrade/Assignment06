@@ -56,5 +56,15 @@ window.alert(new_string.toUpperCase());
 */
 
 //STEP 9
+/*
+var dog = "            THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.          ";
+var noSpace = (dog.trim());
+window.alert(noSpace.toLowerCase());
+*/
 
 //STEP 10
+/*
+var dog = "the quick brown fox jumps over the lazy dog.";
+var capFirst = dog.charAt(0).toUpperCase() + name.slice(1);
+window.alert(dog.replace("t", capFirst));
+*/
