@@ -33,14 +33,27 @@ window.alert(fox.lastIndexOf("fox"));
 */
 
 //STEP 6
-
+/*
 var dog = "The quick brown fox jumped over the lazy dog.";
 var fullname = prompt("What is your full name?");
-window.alert(dog.replace("the lazy dog", fullname);
+var name = fullname;
+window.alert(dog.replace("the lazy dog", name));
+*/
 
 //STEP 7
+/*
+var dog = "The quick brown fox jumps over the lazy dog.";
+var word = prompt("Enter a word from 'The quick brown fox jumps over the lazy dog.'");
+var find = word;
+window.alert(dog.search(find));
+*/
 
 //STEP 8
+/*
+var old_string = "The quick brown fox jumps over the lazy dog.";
+var new_string = (old_string.slice(-13, -1));
+window.alert(new_string.toUpperCase());
+*/
 
 //STEP 9
 
