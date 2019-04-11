@@ -18,14 +18,11 @@ var num = window.prompt("Enter a number with a decimal point.");
 window.console.log(Math.floor(num));
 */
 
-//STEP 4 COME BACK TO, try doing separate first then put together
-
+//STEP 4
+/*
 var nums = window.prompt("Enter five numbers. Separate them with a comma.");
 var five = nums;
-var max = (Math.max(five));
-//var min = (Math.min(five));
-window.console.log(max);
-
+window.console.log((Math.max.apply(null, five)) + (Math.min.apply(null, five))); */
 
 //STEP 5
 /*
