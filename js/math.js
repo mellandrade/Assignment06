@@ -20,9 +20,10 @@ window.console.log(Math.floor(num));
 
 //STEP 4
 /*
-var nums = window.prompt("Enter five numbers. Separate them with a comma.");
-var five = nums;
-window.console.log((Math.max.apply(null, five)) + (Math.min.apply(null, five))); */
+var nums = window.prompt("Enter five numbers. Separate them with a comma.").split(",");
+var five = [nums];
+window.console.log((Math.max(nums)) + (Math.min.apply(null, five)));
+*/
 
 //STEP 5
 /*
